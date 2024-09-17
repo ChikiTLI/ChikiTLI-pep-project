@@ -40,7 +40,6 @@ public class MessageService {
         return null;
     }
 
-
     public Message deleteMessage(int id) {
         Message message = messageDAO.deleteMessageById(id);
         if(message != null) {
